@@ -28,5 +28,4 @@ public class JwtAuthenticationEntryPoint implements AuthenticationEntryPoint {
 		response.getWriter().print(jsonLoginResponse);
 		
 	}
-
 }
